@@ -1,0 +1,14 @@
+.cache
+.DS_STORE
+.lsp-session-v1
+auto-save-list
+backups
+elpa
+eshell
+history
+ido.last
+projects
+smex-items
+straight
+themes
+transient
