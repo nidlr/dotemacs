@@ -38,7 +38,7 @@
         modus-themes-preset-overrides-faint)
   (load-theme 'modus-operandi t)
 
-   (custom-set-faces
+  (custom-set-faces
    '(mode-line ((t (:box nil))))
    '(mode-line-active ((t (:box nil))))
    '(mode-line-inactive ((t (:box nil))))
@@ -48,6 +48,8 @@
    '(lsp-face-semhl-namespace ((t :inherit font-lock-type-face)))
    '(lsp-rust-analyzer-reference-modifier-face ((t :inherit lsp-rust-analyzer-reference-modifier-face :bold nil)))
    '(lsp-rust-analyzer-mutable-modifier-face ((t :inherit lsp-rust-analyzer-reference-modifier-face :underline t))))
+
+  (enable-ligatures)
 
   :hook
   ((prog-mode . display-line-numbers-mode)
