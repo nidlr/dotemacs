@@ -40,6 +40,7 @@
   (treemacs-text-scale -0.3)
   (treemacs-user-mode-line-format 'none)
   (treemacs-expand-after-init t)
+  (treemacs-hide-gitignored-files-mode t)
   :bind (:map treemacs-mode-map
               ([mouse-1] . treemacs-single-click-expand-action)))
 
